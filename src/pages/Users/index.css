@@ -1,0 +1,53 @@
+#navigation-bar{
+    position: relative;
+    height: 4rem;
+    margin-bottom: auto;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 2px 5px lightgrey;
+}
+
+.logo{
+    margin:0;
+    padding: 0;
+    margin-left: 1rem;
+    width: 100px;
+}
+
+#top-nav-container{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2rem;
+}
+
+.body{
+    width: 100%;
+    background: white;
+}
+
+.body a {
+    margin: 10px;  
+    text-decoration: none;
+    color: blue;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.body main{
+    height: calc(100vh - 4rem);
+    width: 50vw;
+    margin: auto;
+    border-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     
+    
+}
+
+
+
